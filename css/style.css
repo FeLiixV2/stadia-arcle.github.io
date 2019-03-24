@@ -1,0 +1,31 @@
+body, html {
+	font-family: "Verdana", sans-serif;
+	font-size: 15px;
+	color: #262626;
+	scroll-behavior: smooth;
+}
+
+#nav {
+	background-color: #262626;
+	height: 50px;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 99;
+}
+
+.section-dark {
+	background-color: #282e34;
+	padding: 40px;
+	color: #f4f4f4;
+}
+
+.section-light {
+	background-color: #f4f4f4;
+	padding: 40px;
+	color: #282e34;
+}
+
+.pos-right {
+	float: right;
+}
